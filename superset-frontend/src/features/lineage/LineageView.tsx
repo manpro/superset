@@ -152,7 +152,7 @@ type NodeDetails = {
 const nodeKey = (type: NodeType, id?: number, name?: string): string =>
   id != null ? `${type}:${id}` : `${type}:${name ?? ''}`;
 
-type LineageViewProps = {
+export type LineageViewProps = {
   lineageResource:
     | Resource<DatasetLineage>
     | Resource<ChartLineage>

@@ -24,7 +24,7 @@ import {
   useDashboardLineage,
   useDatasetLineage,
 } from 'src/hooks/apiResources';
-import LineageView from './LineageView';
+import LineageView from './LazyLineageView';
 
 export interface LineageModalProps {
   entityType: 'dataset' | 'chart' | 'dashboard';

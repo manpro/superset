@@ -17,5 +17,5 @@
  * under the License.
  */
 
-export { default as LineageView } from './LineageView';
+export { default as LineageView } from './LazyLineageView';
 export { default as LineageModal } from './LineageModal';
