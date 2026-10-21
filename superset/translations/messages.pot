@@ -15,22 +15,6 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# Licensed to the Apache Software Foundation (ASF) under one
-# or more contributor license agreements.  See the NOTICE file
-# distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
-# to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
-#
-#   http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-# KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
 # Translations template for Superset.
 # Copyright (C) 2026 Superset
 # This file is distributed under the same license as the Superset project.
@@ -41,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-16 15:10-0400\n"
+"POT-Creation-Date: 2026-10-20 21:31-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -287,6 +271,10 @@ msgstr ""
 
 #, python-format
 msgid "%s (copy from %s)"
+msgstr ""
+
+#, python-format
+msgid "%s Details"
 msgstr ""
 
 #, python-format
@@ -3081,10 +3069,7 @@ msgstr ""
 msgid "Changing this semantic view is forbidden"
 msgstr ""
 
-msgid ""
-"Changing this setting may change the casing for all columns in this dataset, "
-"which may break any existing charts and dashboard filters that reference the "
-"current column names."
+msgid "Changing this setting may change the casing for all columns in this dataset, which may break any existing charts and dashboard filters that reference the current column names."
 msgstr ""
 
 msgid "Changing this task is forbidden"
@@ -3111,6 +3096,15 @@ msgstr ""
 msgid "Chart %(id)s not found"
 msgstr ""
 
+msgid "Chart (Current)"
+msgstr ""
+
+msgid "Chart (Downstream)"
+msgstr ""
+
+msgid "Chart (Upstream)"
+msgstr ""
+
 #, python-format
 msgid "Chart Data: %s"
 msgstr ""
@@ -3122,6 +3116,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "Chart ID"
+msgstr ""
+
+msgid "Chart Lineage"
 msgstr ""
 
 msgid "Chart Options"
@@ -4197,6 +4194,9 @@ msgstr ""
 msgid "Could not verify which dimensions are compatible. All dimensions are shown."
 msgstr ""
 
+msgid "Couldn't validate this semantic view: it may not exist, or the semantic layer is unreachable."
+msgstr ""
+
 msgid "Count"
 msgstr ""
 
@@ -4534,10 +4534,19 @@ msgstr ""
 msgid "Dashboard %(dashboard_id)s not found"
 msgstr ""
 
+msgid "Dashboard (Current)"
+msgstr ""
+
+msgid "Dashboard (Downstream)"
+msgstr ""
+
 msgid "Dashboard Filter"
 msgstr ""
 
 msgid "Dashboard Id"
+msgstr ""
+
+msgid "Dashboard Lineage"
 msgstr ""
 
 #, python-format
@@ -4707,6 +4716,9 @@ msgstr ""
 msgid "Database"
 msgstr ""
 
+msgid "Database (Upstream)"
+msgstr ""
+
 msgid "Database Connections"
 msgstr ""
 
@@ -4790,6 +4802,15 @@ msgstr ""
 
 #, python-format
 msgid "Dataset %(table)s already exists"
+msgstr ""
+
+msgid "Dataset (Current)"
+msgstr ""
+
+msgid "Dataset (Upstream)"
+msgstr ""
+
+msgid "Dataset Lineage"
 msgstr ""
 
 msgid "Dataset Name"
@@ -6669,6 +6690,9 @@ msgstr ""
 msgid "Failed to load drill-to-detail rows"
 msgstr ""
 
+msgid "Failed to load lineage data"
+msgstr ""
+
 msgid "Failed to load results"
 msgstr ""
 
@@ -6869,15 +6893,11 @@ msgid "Filter charts"
 msgstr ""
 
 #, python-format
-msgid ""
-"Filter column '%(column)s' is a metric; semantic views only filter on "
-"dimensions. Select a dimension or remove the filter."
+msgid "Filter column '%(column)s' is a metric; semantic views only filter on dimensions. Select a dimension or remove the filter."
 msgstr ""
 
 #, python-format
-msgid ""
-"Filter column '%(column)s' is not in this semantic view. Select a "
-"dimension or remove the filter."
+msgid "Filter column '%(column)s' is not in this semantic view. Select a dimension or remove the filter."
 msgstr ""
 
 msgid "Filter has default value"
@@ -7475,6 +7495,9 @@ msgid "How to display time shifts: as individual lines; as the difference betwee
 msgstr ""
 
 msgid "Huge"
+msgstr ""
+
+msgid "ID"
 msgstr ""
 
 msgid "ISO 3166-2"
@@ -8407,6 +8430,12 @@ msgid "Line width"
 msgstr ""
 
 msgid "Line width unit"
+msgstr ""
+
+msgid "Lineage"
+msgstr ""
+
+msgid "Lineage is available after the dataset is saved"
 msgstr ""
 
 msgid "Linear"
@@ -9455,6 +9484,9 @@ msgstr ""
 msgid "No items"
 msgstr ""
 
+msgid "No lineage data available"
+msgstr ""
+
 msgid "No matching records found"
 msgstr ""
 
@@ -9890,6 +9922,9 @@ msgid "Opacity of bubbles, 0 means completely transparent, 1 means opaque"
 msgstr ""
 
 msgid "Opacity, expects values between 0 and 100"
+msgstr ""
+
+msgid "Open"
 msgstr ""
 
 msgid "Open Datasource tab"
@@ -12376,9 +12411,7 @@ msgid "Semantic cache"
 msgstr ""
 
 #, python-format
-msgid ""
-"Semantic dimension '%(name)s' has ambiguous variants for grain '%(grain)s'. "
-"Use one dimension per name and grain."
+msgid "Semantic dimension '%(name)s' has ambiguous variants for grain '%(grain)s'. Use one dimension per name and grain."
 msgstr ""
 
 msgid "Semantic layer"
@@ -14509,6 +14542,9 @@ msgstr ""
 msgid "The version of the service"
 msgstr ""
 
+msgid "The view configuration must be a JSON object."
+msgstr ""
+
 msgid "The visible title of the layer"
 msgstr ""
 
@@ -16283,6 +16319,9 @@ msgstr ""
 msgid "View Dataset"
 msgstr ""
 
+msgid "View Lineage"
+msgstr ""
+
 msgid "View all charts"
 msgstr ""
 
@@ -16290,6 +16329,9 @@ msgid "View as table"
 msgstr ""
 
 msgid "View in SQL Lab"
+msgstr ""
+
+msgid "View lineage"
 msgstr ""
 
 msgid "View query"
@@ -17258,9 +17300,7 @@ msgstr ""
 msgid "Your report could not be deleted"
 msgstr ""
 
-msgid ""
-"Your role does not have access to the profile page needed to change your "
-"password. Contact an administrator."
+msgid "Your role does not have access to the profile page needed to change your password. Contact an administrator."
 msgstr ""
 
 msgid "Your session has ended. Please sign in again."
@@ -18267,12 +18307,4 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "№"
-msgstr ""
-
-msgid ""
-"Couldn't validate this semantic view: it may not exist, or the semantic layer"
-" is unreachable."
-msgstr ""
-
-msgid "The view configuration must be a JSON object."
 msgstr ""
